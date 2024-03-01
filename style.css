@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(./img/back3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#main {
+    width: 50%;
+    padding: 30px 25px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+#main h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#main .content {
+    margin: 30px 20px 0 0;
+}
+
+.content .quote-box {
+    display: flex;
+    justify-content: center;
+}
+
+.content .quote-box i {
+    font-size: 22px;
+}
+
+.content .quote-box i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.content .quote-box i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.content .quote-box .quote {
+    font-size: 28px;
+    text-align: center;
+}
+
+.content .person p {
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.content .btn {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.content button.copy {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.content button.copy:hover {
+    background: black;
+    color: #fff;
+}
+
+.content button.change {
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 0;
+    outline: 0;
+    background: gray;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content button.change:hover {
+    background: black;
+    color: #fff;
+}
